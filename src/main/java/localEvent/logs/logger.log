@@ -1,0 +1,56 @@
+2023-06-14 18:23:29,958 INFO l.Main [main] JSON File is created successfully, located at jsonResources folder
+2023-06-14 18:23:30,012 INFO l.Main [main] Display the json file from the root as below: 
+Event 
+ eventName: SOFIC Week 2023
+ ticketPrice: 235.5
+ startDateTime: Mon Nov 20 08:30:00 EST 2023
+ endDateTime: Thu Nov 23 13:30:00 EST 2023
+ organizer 
+    organizerId: O12345
+    organizerName: USSOCOM
+    organizerAddress: 2101 Wilson Boulevard
+    organizerCity: Arlington
+    organizerState: VA
+    organizerZipCode: 22201
+    organizerCountry: null
+ venue 
+    venueId: TCC
+    venueName: Tampa Convention Center
+ attendeeList 
+[  attendee 
+     id: SF-101
+     name: Jessica Roman
+     email: jessica123@gmail.com
+     phone: 8132380232
+     paymentDetail: 
+         paymentId: PDHP-101
+         cardHolderName: Jessica Roman
+         cardType: Visa
+         cardNumber: 4556182327531691
+         expiration: 05/2028
+         cvv: 287
+,   attendee 
+     id: SF-102
+     name: Kha Kim
+     email: khakim@gmail.com
+     phone: 4074561289
+     paymentDetail: 
+         paymentId: PDKK-102
+         cardHolderName: Kha Kim
+         cardType: Master
+         cardNumber: 5348016040540631
+         expiration: 03/2027
+         cvv: 396
+,   attendee 
+     id: SF-103
+     name: Jennifer Jenkins
+     email: jennifer@gmail.com
+     phone: 8136439013
+     paymentDetail: 
+         paymentId: PDJJ-103
+         cardHolderName: Jennifer Jenkins
+         cardType: American Express
+         cardNumber: 3439172354192241
+         expiration: 03/2029
+         cvv: 560
+]
