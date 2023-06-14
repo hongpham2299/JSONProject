@@ -48,11 +48,11 @@ public class Main {
         Venue venue = new Venue("TCC", "Tampa Convention Center");
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+        Date startDateTime = dateFormat.parse("2023-11-20 08:30");
+        Date endDateTime = dateFormat.parse("2023-11-23 13:30");
 
-            Date startDateTime = dateFormat.parse("2023-11-20 08:30");
-            Date endDateTime = dateFormat.parse("2023-11-23 13:30");
-
-        Event event = new Event("SOFIC Week 2023", BigDecimal.valueOf(235.50), startDateTime, endDateTime, organizer, venue, attendeeList);
+        Event event = new Event("SOFIC Week 2023", BigDecimal.valueOf(235.50), startDateTime, endDateTime,
+                                organizer, venue, attendeeList);
 
         //Serialize and write the values to json file
         try {
