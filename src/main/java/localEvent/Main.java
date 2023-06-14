@@ -43,8 +43,7 @@ public class Main {
         attendeeList.add(khaKim);
         attendeeList.add(jenniferJenkins);
 
-        Organizer organizer = new Organizer("O12345", "USSOCOM", "2101 Wilson Boulevard", "Arlington",
-                "VA", "22201", "USA");
+        Organizer organizer = new Organizer("O12345", "USSOCOM", "2101 Wilson Boulevard", "Arlington", "VA", "22201", "USA");
 
         Venue venue = new Venue("TCC", "Tampa Convention Center");
 
@@ -53,8 +52,7 @@ public class Main {
             Date startDateTime = dateFormat.parse("2023-11-20 08:30");
             Date endDateTime = dateFormat.parse("2023-11-23 13:30");
 
-        Event event = new Event("SOFIC Week 2023", BigDecimal.valueOf(235.50), startDateTime, endDateTime,
-                                    organizer, venue, attendeeList);
+        Event event = new Event("SOFIC Week 2023", BigDecimal.valueOf(235.50), startDateTime, endDateTime, organizer, venue, attendeeList);
 
         //Serialize and write the values to json file
         try {
